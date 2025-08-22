@@ -170,6 +170,7 @@ Most IDEs support MCP through similar configuration patterns. Check your IDE's M
 ```
 "Get the weather for Tokyo"
 "Convert 50 miles to kilometers"
+"show me sample convert prompt"
 "Show me the sample weather resource"
 ```
 <img width="805" height="556" alt="image" src="https://github.com/user-attachments/assets/6ef83b16-bb32-41f6-a725-c85ef034bd85" />
