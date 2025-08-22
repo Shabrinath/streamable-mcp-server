@@ -172,7 +172,8 @@ Most IDEs support MCP through similar configuration patterns. Check your IDE's M
 "Convert 50 miles to kilometers"
 "Show me the sample weather resource"
 ```
-<img width="620" height="434" alt="image" src="https://github.com/user-attachments/assets/477a2ac5-fc50-4b59-a11c-dec6b04e6209" />
+<img width="805" height="556" alt="image" src="https://github.com/user-attachments/assets/6ef83b16-bb32-41f6-a725-c85ef034bd85" />
+
 
 
 ## Resources
