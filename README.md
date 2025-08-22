@@ -1,6 +1,6 @@
 # Deploy FastMCP Server & Connect to AI Clients
 
-This repo helps you to build your simple MCP server on an EC2 instance and then connect it to Cursor or similar AI clients. This repository contains a lightweight MCP (Model Context Protocol) server built with FastMCP that provides utility tools and resources to AI assistants, including weather information, unit conversions, and sample data resources.
+This repo helps you to build your simple MCP server as a Docker container or on an EC2 instance and then connect it to Cursor or similar AI clients. This repository contains a lightweight MCP (Model Context Protocol) server built with FastMCP that provides utility tools and resources to AI assistants, including weather information, unit conversions, and sample data resources.
 
 ## What is MCP?
 
@@ -136,6 +136,15 @@ uv run mcp-server.py
 ```bash
 # Allow port 8000 (adjust as needed)
 sudo ufw allow 8000
+```
+### Option 2: Using Docker directly
+
+```bash
+# 1. Build the Docker image
+docker build -t mcp-utility-server .
+
+# 2. Run the container
+docker run -p 8000:8000 mcp-utility-server
 ```
 
 ## Connecting to IDEs
