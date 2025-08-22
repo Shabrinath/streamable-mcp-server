@@ -115,7 +115,7 @@ source ~/.bashrc
 ```bash
 # Clone your repository
 git clone <your-repo-url>
-cd fastmcp
+cd streamable-mcp-server
 
 # Create virtual environment with Python 3.11
 uv venv --python 3.11
