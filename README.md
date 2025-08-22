@@ -145,6 +145,9 @@ docker build -t mcp-utility-server .
 
 # 2. Run the container
 docker run -p 8000:8000 mcp-utility-server
+
+or directly use image from Dockerhub
+docker run -d -p 8000:8000 shabari007/mcpserver:latest
 ```
 
 ## Connecting to IDEs
