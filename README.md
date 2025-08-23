@@ -2,6 +2,8 @@
 
 This repo helps you to build your simple MCP server as a Docker container or on an EC2 instance and then connect it to Cursor or similar AI clients. This repository contains a lightweight MCP (Model Context Protocol) server built with FastMCP that provides utility tools and resources to AI assistants, including weather information, unit conversions, and sample data resources.
 
+**[MCP Inspector](https://github.com/Shabrinath/mcp-inspector)** - You can explore on MCP Inspector in my other repo.
+
 ## What is MCP?
 
 **MCP (Model Context Protocol)** is an open protocol that enables AI assistants to connect to external data sources and tools. It allows AI models to:
